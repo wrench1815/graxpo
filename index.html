@@ -2,6 +2,8 @@
   * Author: Hardeep Kumar
   * Created on: Mon Jun 07 2021
   * File: index.html
+
+  ? Site Color: #e84c3d
  -->
 
 <!DOCTYPE html>
@@ -32,11 +34,117 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.css"
       rel="stylesheet"
     />
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
-  <body>
+  <body class="bg-white">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
+      <!-- Container wrapper -->
+      <div class="container">
+        <!-- Navbar brand -->
+        <a class="navbar-brand mt-2 mt-lg-0" href="#">
+          <img src="/images/logo.png" height="15" alt="" loading="lazy" />
+        </a>
+        <!-- Toggle button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-mdb-toggle="collapse"
+          data-mdb-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <!-- Collapsible wrapper -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- Left links -->
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link text-uppercase font-weight-bold" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase font-weight-bold" href="#"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase font-weight-bold" href="#"
+                >Service</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase font-weight-bold" href="#"
+                >Portfolio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase font-weight-bold" href="#"
+                >Team</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase font-weight-bold" href="#"
+                >Blog</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase font-weight-bold" href="#"
+                >Contact</a
+              >
+            </li>
+          </ul>
+
+          <!-- Left links -->
+        </div>
+        <!-- Collapsible wrapper -->
+      </div>
+      <!-- Right elements -->
+
+      <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar -->
+
+    <!-- Main Container -->
     <div class="container-fluid">
-      <h1>Hello World</h1>
+      <!-- Banner -->
+      <div
+        class="
+          bg-image
+          d-flex
+          flex-column
+          justify-content-center
+          align-items-center
+        "
+        style="background-image: url(images/bannerbg.jpg); height: 100vh"
+      >
+        <div>
+          <h3 class="text-uppercase">Hello, We're Prothemers</h3>
+          <p class="text-uppercase text-muted text-center">
+            Fresh Premium Quality PSD Template
+          </p>
+          <div
+            class="
+              d-flex
+              justify-content-end
+              align-items-center
+              flex-column
+              h-100
+            "
+          >
+            <img src="images/scroll.gif" alt="" />
+          </div>
+        </div>
+      </div>
+      <!-- Banner -->
     </div>
+    <!-- Main Container -->
+
     <!-- MDB -->
     <script
       type="text/javascript"
