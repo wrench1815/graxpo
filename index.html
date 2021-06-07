@@ -64,17 +64,19 @@
           <!-- Left links -->
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link text-uppercase font-weight-bold" href="#"
+              <a class="nav-link text-uppercase font-weight-bold" href="#home"
                 >Home</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-uppercase font-weight-bold" href="#"
+              <a class="nav-link text-uppercase font-weight-bold" href="#about"
                 >About</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-uppercase font-weight-bold" href="#"
+              <a
+                class="nav-link text-uppercase font-weight-bold"
+                href="#service"
                 >Service</a
               >
             </li>
@@ -110,9 +112,9 @@
     </nav>
     <!-- Navbar -->
 
-    <!-- Main Container -->
-    <div class="container-fluid">
-      <!-- Banner -->
+    <!-- Banner Container -->
+    <div id="home">
+      <!-- Banner BG Image -->
       <div
         class="
           bg-image
@@ -123,6 +125,7 @@
         "
         style="background-image: url(images/bannerbg.jpg); height: 100vh"
       >
+        <!-- Banner Texts -->
         <div>
           <h3 class="text-uppercase">Hello, We're Prothemers</h3>
           <p class="text-uppercase text-muted text-center">
@@ -141,10 +144,55 @@
           </div>
         </div>
       </div>
-      <!-- Banner -->
-    </div>
-    <!-- Main Container -->
 
+      <div class="mt-"></div>
+    </div>
+    <!-- Banner Container -->
+
+    <!-- About Container -->
+    <div
+      id="about"
+      class="
+        container
+        d-flex
+        justify-content-center
+        flex-column
+        mt-5
+        min-vh-100
+      "
+    >
+      <div
+        class="
+          d-flex
+          justify-content-around
+          align-items-center
+          flex-wrap-reverse
+        "
+      >
+        <!-- Left Card -->
+        <div class="mt-4" style="max-width: 28em">
+          <div class="card-body">
+            <h5 class="card-title text-uppercase">About Graxpo</h5>
+            <div class="border-bottom"></div>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+              magnam qui omnis assumenda suscipit dolore esse neque aperiam
+              ullam, delectus vitae cumque eveniet mollitia repudiandae
+              distinctio quidem corrupti aspernatur id.
+            </p>
+            <button type="button" class="btn btn-danger">
+              Learn More <em class="fas fa-angle-right"></em>
+            </button>
+          </div>
+        </div>
+        <!-- Right Image -->
+        <div>
+          <img class="img-fluid" src="images/ab.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- About Container -->
+    
     <!-- MDB -->
     <script
       type="text/javascript"
