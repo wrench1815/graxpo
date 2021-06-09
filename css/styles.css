@@ -61,3 +61,11 @@
   -moz-transition-delay: 0.1s;
   -o-transition-delay: 0.1s;
 }
+
+.btn-site-col {
+  background-color: var(--site-col);
+}
+
+.bg-site-col {
+  background-color: var(--site-col);
+}
