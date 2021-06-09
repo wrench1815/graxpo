@@ -2,12 +2,62 @@
 *  Author : Hardeep Kumar   
 *  Created On : Mon Jun 07 2021
 *  File : styles.css
-*/
 
-/* 
 ? Site Color: #e84c3d
 */
 
+:root {
+  --site-col: #e84c3d;
+}
+
 .bg-custom-color {
   background-color: rgb(228, 229, 230);
+}
+
+.stats-mask {
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  background-color: rgba(232, 76, 61, 0.8);
+}
+
+.service-card {
+  background-color: #ffffff;
+  transition: background-color 0.3s ease-in;
+  -webkit-transition: background-color 0.3s ease-in;
+  -moz-transition: background-color 0.3s ease-in;
+  -o-transition: background-color 0.3s ease-in;
+}
+
+.service-card:hover {
+  background-color: var(--site-col);
+}
+
+.service-icon {
+  color: #ffffff;
+  background-color: var(--site-col);
+  transition: background-color 0.4s ease-in;
+  -webkit-transition: background-color 0.4s ease-in;
+  -moz-transition: background-color 0.4s ease-in;
+  -o-transition: background-color 0.4s ease-in;
+}
+
+.service-card:hover .service-icon {
+  color: var(--site-col);
+  background-color: #ffffff;
+}
+
+.service-text {
+  color: #4f4f4f;
+  transition-delay: 0.1s;
+  -webkit-transition-delay: 0.1s;
+  -moz-transition-delay: 0.1s;
+  -o-transition-delay: 0.1s;
+}
+
+.service-card:hover .service-text {
+  color: #ffffff;
+  transition-delay: 0.1s;
+  -webkit-transition-delay: 0.1s;
+  -moz-transition-delay: 0.1s;
+  -o-transition-delay: 0.1s;
 }

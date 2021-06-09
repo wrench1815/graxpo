@@ -115,7 +115,7 @@
 
     <!-- ! Banner Container -->
     <div id="home">
-      <!-- Banner BG Image -->
+      <!-- ? Banner BG Image -->
       <div
         class="
           bg-image
@@ -126,12 +126,13 @@
         "
         style="background-image: url(images/bannerbg.jpg); height: 100vh"
       >
-        <!-- Banner Texts -->
+        <!-- ? Banner Texts -->
         <div>
           <h3 class="text-uppercase">Hello, We're Prothemers</h3>
           <p class="text-uppercase text-muted text-center">
             Fresh Premium Quality PSD Template
           </p>
+          <div class="border-bottom border-dark"></div>
           <div
             class="
               d-flex
@@ -141,12 +142,14 @@
               h-100
             "
           >
-            <img src="images/scroll.gif" alt="" />
+            <img
+              class="rounded-circle border border-white shadow-sm"
+              src="images/scroll.gif"
+              alt="scroll down"
+            />
           </div>
         </div>
       </div>
-
-      <div class="mt-"></div>
     </div>
     <!-- ! Banner Container -->
 
@@ -217,17 +220,18 @@
             class="
               d-flex
               align-items-lg-start align-items-center
-              bg-white
               py-4
               rounded-3
-              shadow-sm
+              shadow
+              service-card
+              px-2
             "
           >
-            <div class="p-4 mx-3 btn-lg bg-danger text-white rounded-circle">
-              <em class="fas fa-desktop fa-2x"></em>
+            <div class="p-4 mx-3 btn-lg service-icon rounded-circle">
+              <em class="fas fa-desktop fa-2x fa-fw"></em>
             </div>
-            <div>
-              <h4 class="text-uppercase">UI / UX Design</h4>
+            <div class="service-text">
+              <div class="text-uppercase h5">UI / UX Design</div>
               <div class="border-bottom"></div>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa
@@ -244,17 +248,18 @@
             class="
               d-flex
               align-items-lg-start align-items-center
-              bg-white
               py-4
               rounded-3
-              shadow-sm
+              shadow
+              service-card
+              px-2
             "
           >
-            <div class="p-4 mx-3 btn-lg bg-danger text-white rounded-circle">
-              <em class="fas fa-desktop fa-2x"></em>
+            <div class="p-4 mx-3 btn-lg service-icon rounded-circle">
+              <i class="far fa-star fa-2x fa-fw"></i>
             </div>
-            <div>
-              <h4 class="text-uppercase">Branding & Identy</h4>
+            <div class="service-text">
+              <div class="text-uppercase h5">Branding & Identy</div>
               <div class="border-bottom"></div>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa
@@ -274,17 +279,18 @@
             class="
               d-flex
               align-items-lg-start align-items-center
-              bg-white
               py-4
               rounded-3
-              shadow-sm
+              shadow
+              service-card
+              px-2
             "
           >
-            <div class="p-4 mx-3 btn-lg bg-danger text-white rounded-circle">
-              <em class="fas fa-desktop fa-2x"></em>
+            <div class="p-4 mx-3 btn-lg service-icon rounded-circle">
+              <em class="fas fa-mobile-alt fa-2x fa-fw"></em>
             </div>
-            <div>
-              <h4 class="text-uppercase">App Design</h4>
+            <div class="service-text">
+              <div class="text-uppercase h5">App Design</div>
               <div class="border-bottom"></div>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa
@@ -301,17 +307,18 @@
             class="
               d-flex
               align-items-lg-start align-items-center
-              bg-white
               py-4
               rounded-3
-              shadow-sm
+              shadow
+              service-card
+              px-2
             "
           >
-            <div class="p-4 mx-3 btn-lg bg-danger text-white rounded-circle">
-              <em class="fas fa-desktop fa-2x"></em>
+            <div class="p-4 mx-3 btn-lg service-icon rounded-circle">
+              <em class="fas fa-edit fa-2x fa-fw"></em>
             </div>
-            <div>
-              <h4 class="text-uppercase">Print Design</h4>
+            <div class="service-text">
+              <div class="text-uppercase h5">Print Design</div>
               <div class="border-bottom"></div>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa
@@ -324,6 +331,88 @@
       </div>
     </div>
     <!-- ! Services  Container -->
+
+    <!-- ! Stats Container -->
+    <div>
+      <div
+        class="
+          bg-image
+          d-flex
+          flex-column
+          justify-content-center
+          align-items-center
+        "
+        style="
+          background-image: url(images/counterbg.jpg);
+          height: 50vh;
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        "
+      >
+        <div class="mask stats-mask">
+          <div
+            class="
+              d-flex
+              justify-content-evenly
+              align-items-center
+              flex-wrap
+              h-100
+            "
+          >
+            <!-- ? Project Stats -->
+            <div class="m-auto">
+              <div class="h3 text-white">
+                <i class="far fa-thumbs-up"></i> <span>1580</span>
+              </div>
+              <div class="text-uppercase text-white">Project Completed</div>
+              <div class="border-bottom mt-2"></div>
+            </div>
+
+            <!-- ? People Stats -->
+            <div class="m-auto">
+              <div class="h3 text-white">
+                <i class="far fa-heart"></i> <span>2850</span>
+              </div>
+              <div class="text-uppercase text-white">People Loved</div>
+              <div class="border-bottom mt-2"></div>
+            </div>
+
+            <!-- ? Identify Stats -->
+            <div class="m-auto">
+              <div class="h3 text-white">
+                <i class="far fa-star"></i> <span>1500</span>
+              </div>
+              <div class="text-uppercase text-white">Identify Earn</div>
+              <div class="border-bottom mt-2"></div>
+            </div>
+
+            <!-- ? Business Stats -->
+            <div class="m-auto">
+              <div class="h3 text-white">
+                <i class="fas fa-bullseye"></i> <span>1430</span>
+              </div>
+              <div class="text-uppercase text-white">Business Donor</div>
+              <div class="border-bottom mt-2"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ! Stats Container -->
+
+    <!-- ! Footer -->
+    <footer class="bg-danger mt-4">
+      <!-- ? Copyright -->
+      <div class="text-center text-white p-3">
+        © 2020 Copyright:
+        <a class="text-white" href="#!">Graxpro</a>
+      </div>
+      <!-- ? Copyright -->
+    </footer>
+    <!-- @ Footer -->
+
     <!-- MDB -->
     <script
       type="text/javascript"
